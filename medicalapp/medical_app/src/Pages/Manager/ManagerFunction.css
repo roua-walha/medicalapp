@@ -1,0 +1,27 @@
+#inM {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    transition: border-color 0.15s,box-shadow 0.15s;
+    margin-top: 20px;
+    width: 400px; /* largeur de 300 pixels */
+    height: 40px; /* hauteur de 40 pixels */
+}
+
+#inM:focus {
+border-color: #4472C4;
+outline: 0;
+box-shadow: 0 0 0 4px rgba(24,117,255, 0.25);
+}
+
+#butM{
+    text-align: center;
+    box-sizing: border-box;
+    height: 40px !important;
+    border:  #cccccc;
+    border-radius: 4px;
+    width: 200px !important;
+    margin-top: 20px;
+    background-color: #ee50a9;
+    color: #eeeeee;
+  }

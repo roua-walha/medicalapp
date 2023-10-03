@@ -1,0 +1,45 @@
+.appointment-scheduler {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.calendar-container {
+  margin-bottom: 1rem !important;
+  
+}
+
+.time-buttons-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+/*.time-button {
+  margin: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  background-color: lightgrey !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.time-button:disabled {
+  opacity: 0.5 !important;
+  cursor: default !important;
+}*/
+#heure{
+  text-align: center;
+    box-sizing: border-box;
+    border:  #cccccc;
+    border-radius: 4px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color:white;
+    font-weight: 600;
+    font-size: 15px;
+}

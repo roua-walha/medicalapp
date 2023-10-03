@@ -1,0 +1,49 @@
+
+#homep{
+    background: #fff;
+}
+#pinfo{
+    color: #9b59b6;
+}
+#h2hp{
+    color: #9b59b6;
+    font-size: 20px;
+    /*margin: 30px 0px;*/
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+#trait_dessus
+{
+border-top: 1px solid #9b59b6;
+width : 700px;
+
+} 
+#h3ph{
+    color: var(--main2-color);
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#h3phi{
+    color: var(--main2-color);
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.td{
+    width : 190px;
+}
+#butanal {
+    text-align: center;
+    box-sizing: border-box;
+    height: 35px !important;
+    border: #cccccc;
+    border-radius: 4px;
+    width: 90px !important;
+    margin-top: 0px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}

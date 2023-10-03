@@ -1,0 +1,92 @@
+/*#butdoc {
+    display: inline-block;
+    background-color:#565acf;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center ;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  #butdoc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  #butdoc span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #butdoc:hover {
+    background-color: #4e99fc;
+  }
+  #butdoc:hover span {
+    padding-right: 25px;
+  }
+  #butdoc:hover span:after {
+    opacity: 1;
+    right: 0;
+  }*/
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidebar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-logo img {
+    height: 40px;
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 0;
+    color: white;
+  }
+  
+  .sidebar .nav-link:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);;
+  }
+  
+  .sidebar .active {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);;
+  }
+  
+  #bodyph{
+    background:  #fff;
+    height: 100vh;
+    display: flex;
+  }
+  .contentSD {
+    margin-left: 0px;
+    padding:0px;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+    
+  }

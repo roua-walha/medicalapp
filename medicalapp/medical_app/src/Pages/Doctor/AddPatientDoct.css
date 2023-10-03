@@ -1,0 +1,25 @@
+#bodyDoct {
+    /* height: 100vh; */
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding: 10px;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+}
+#butDra{
+    text-align: center;
+    box-sizing: border-box;
+    height: 45px !important;
+    border: #cccccc;
+    border-radius: 4px;
+    width: 200px !important;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+/*.active {
+    color: #000 !important;
+}*/

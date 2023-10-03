@@ -1,0 +1,76 @@
+#aprec{
+    background:#fff;
+    display: flex !important;
+  flex-direction: column !important;
+  
+}
+.containerAddapr {
+    
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .containerAddapr .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .containerAddapr .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)!important;
+  }
+#bodyapr{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    
+  }
+#butPr{
+    text-align: center;
+    box-sizing: border-box;
+    height: 45px !important;
+    border:  #cccccc;
+    border-radius: 4px;
+    width: 200px !important;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color:white;
+    font-weight: 600;
+    font-size: 15px;
+}
+#dapr{
+    align-items: center !important;
+    margin-left: 10px;
+}
+#h5arec{
+    color: var(--main-color);
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+}
+.in-Cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 33%;
+}
+.user-details{
+  display: flex;
+
+}
